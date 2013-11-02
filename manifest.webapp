@@ -10,8 +10,8 @@
     "128": "assets/icon-128.png"
   },
   "developer": {
-    "name": "GyOpenAir",
-    "url": "http://academiadacidade.uni5.net"
+    "name": "GymOpenAir",
+    "url": "http://gymopenair.uni5.net"
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/cache.manifest",
@@ -19,13 +19,13 @@
     "pt-BR": {
       "description": "Academia de cidade mais próxima",
       "developer": {
-        "url": "http://academiadacidade.uni5.net/"
+        "url": "http://gymopenair.uni5.net/"
       }
     },
     "en-US": {
       "description": "Gym Service",
       "developer": {
-        "url": "http://academiadacidade.uni5.net/"
+        "url": "http://gymopenair.uni5.net/"
       }
     }
   },
