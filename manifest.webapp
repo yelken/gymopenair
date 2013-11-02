@@ -1,0 +1,33 @@
+
+{
+  "version": "0.1",
+  "name": "Gym open AIR",
+  "description": "Academia da cidade mais próxima para você!",
+  "icons": {
+    "16": "assets/icon-16.png",
+    "48": "assets/icon-48.png",
+    "60": "assets/icon-60.png",
+    "128": "assets/icon-128.png"
+  },
+  "developer": {
+    "name": "GyOpenAir",
+    "url": "http://academiadacidade.uni5.net"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+    "pt-BR": {
+      "description": "Academia de cidade mais próxima",
+      "developer": {
+        "url": "http://academiadacidade.uni5.net/"
+      }
+    },
+    "en-US": {
+      "description": "Gym Service",
+      "developer": {
+        "url": "http://academiadacidade.uni5.net/"
+      }
+    }
+  },
+  "default_locale": "pt-BR"
+}
