@@ -1,4 +1,4 @@
-*[Leia a documentação em Português](https://github.com/yelken/gymopenair/master/README-pt.md)*
+*[Leia a documentação em Português](https://github.com/yelken/gymopenair/blob/master/README-pt.md)*
 
 ---
 
