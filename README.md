@@ -1,3 +1,7 @@
+*[Leia a documentação em Português](https://github.com/yelken/gymopenair/master/README-pt.md)*
+
+---
+
 Academias da Cidade - Encontre a academia mais próxima de você
 ==========
 
