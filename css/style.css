@@ -1,11 +1,11 @@
 /**Fonts**/
 @font-face {
-    font-family: 'academiaCidadeSymbol';
-    src: url('../fonts/academia-cidade-webfont.eot');
-    src: url('../fonts/academia-cidade-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/academia-cidade-webfont.woff') format('woff'),
-         url('../fonts/academia-cidade-webfont.ttf') format('truetype'),
-         url('../fonts/academia-cidade-webfont.svg#buscasauderegularregular') format('svg');
+    font-family: 'buscaSaudeSymbol';
+    src: url('../fonts/busca-saude-webfont.eot');
+    src: url('../fonts/busca-saude-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/busca-saude-webfont.woff') format('woff'),
+         url('../fonts/busca-saude-webfont.ttf') format('truetype'),
+         url('../fonts/busca-saude-webfont.svg#buscasauderegularregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,7 +20,7 @@ body{
 }
 
 span.icone{
-	font-family: 'academiaCidadeSymbol';
+	font-family: 'buscaSaudeSymbol';
 	font-size: 2.3em;
 	vertical-align: middle;
 }
@@ -60,7 +60,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .cabecalho_pagina .logo{
 	float: left;
 	font-size: 3em;
-	font-family: 'academiaCidadeSymbol';
+	font-family: 'buscaSaudeSymbol';
 	padding: 0.2em;
 	color: white;
 	background: #4ee0ad; /* Old browsers */
@@ -165,11 +165,11 @@ input[type="search"]::-webkit-search-results-decoration {
 	height:10em;	
 }
 
-/**Resposta academias**/
+/**Resposta Hospitais**/
 .wrap .area_resultados {
 	
 }
-.wrap .area_resultados .academia{
+.wrap .area_resultados .hospital{
 	opacity: 0;		
 	box-shadow: 0 0 1em rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0 0 1em rgba(0,0,0,0.1);	
@@ -191,7 +191,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 }
 
-.wrap .area_resultados .academia_alt{
+.wrap .area_resultados .hospital_alt{
 	background: #1c748e; /* Old browsers */
 	background: -moz-linear-gradient(top,  #1c748e 0%, #2e5768 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c748e), color-stop(100%,#2e5768)); /* Chrome,Safari4+ */
@@ -202,7 +202,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c748e', endColorstr='#2e5768',GradientType=0 ); /* IE6-9 */
 }
 
-.wrap .area_resultados .academia_0{
+.wrap .area_resultados .hospital_0{
 	background: #4ee0ad; /* Old browsers */
 	background: -moz-linear-gradient(top,  #4ee0ad 0%, #34b59b 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ee0ad), color-stop(100%,#34b59b)); /* Chrome,Safari4+ */
@@ -213,7 +213,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ee0ad', endColorstr='#34b59b',GradientType=0 ); /* IE6-9 */
 }
 
-.wrap .area_resultados .academia .mais_proximo{
+.wrap .area_resultados .hospital .mais_proximo{
 	padding: 0.4em;
 	background-color: #21bea7;
 	color: #00ffdd;
@@ -221,7 +221,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	font-size: small;
 }
 
-.wrap .area_resultados .academia h1{
+.wrap .area_resultados .hospital h1{
 	margin: 0;
 	padding: 0.4em 0.4em;
 	font-weight: normal;
@@ -230,18 +230,18 @@ input[type="search"]::-webkit-search-results-decoration {
 	color:white;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .endereco {
+.wrap .area_resultados .hospital .area_dados_hospital .endereco {
 	overflow: hidden;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .endereco address{
+.wrap .area_resultados .hospital .area_dados_hospital .endereco address{
 	font-size: 0.8em;
 	font-style: normal;
 	color:rgba(255,255,255,0.8);
 	margin-bottom: 0.1em;
 	padding: 0.2em 0.4em;
 }
-.wrap .area_resultados .academia .area_dados_academia .endereco .fone{
+.wrap .area_resultados .hospital .area_dados_hospital .endereco .fone{
 	color: yellow;
 	font-weight: normal;
 	letter-spacing: 0.1em;
@@ -249,27 +249,27 @@ input[type="search"]::-webkit-search-results-decoration {
 	float: left;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .estrelas{
-	font-family: 'academiaCidadeSymbol';
+.wrap .area_resultados .hospital .area_dados_hospital .estrelas{
+	font-family: 'buscaSaudeSymbol';
 	color:rgba(0,0,0,0.2);
 	font-size: 1.5em;
 	float: right;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .estrelas a{
+.wrap .area_resultados .hospital .area_dados_hospital .estrelas a{
 	color:rgba(0,0,0,0.2);
 	text-decoration: none;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .estrelas .amarela{
+.wrap .area_resultados .hospital .area_dados_hospital .estrelas .amarela{
 	color:yellow;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .exibir{
+.wrap .area_resultados .hospital .area_dados_hospital .exibir{
 	overflow: hidden;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .exibir .exibir_mapa{
+.wrap .area_resultados .hospital .area_dados_hospital .exibir .exibir_mapa{
 	background-color: rgba(0,0,0,0.25);
 	border: none;
 	padding: 0.7em;
@@ -284,14 +284,14 @@ input[type="search"]::-webkit-search-results-decoration {
 	text-transform: uppercase;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .especialidades {
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades {
 	margin-top: 0.2em;
 	padding: 0.3em;
 	box-shadow: inset 0 0 0.8em rgba(0,0,0,0.3);
 	background-color: rgba(0,0,0,0.2);
 }
 
-.wrap .area_resultados .academia .area_dados_academia .especialidades h2{
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades h2{
 	padding: 0;
 	margin: 0;
 	color:#333;
@@ -300,13 +300,13 @@ input[type="search"]::-webkit-search-results-decoration {
 	overflow: hidden;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .especialidades ul{
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades ul{
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
 }
 
-.wrap .area_resultados .academia .area_dados_academia .especialidades ul li{
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades ul li{
 	display: inline-block;
 	color:white;
 	font-size: 0.8em;

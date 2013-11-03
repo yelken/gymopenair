@@ -1,3 +1,10 @@
+/**
+Script de Inserção e configuração dos hospitais
+
+@author Rodrigo Portillo
+@date 2013-07-18
+*/
+
 //Variáveis Públicas
 var actCoords = [];
 var directionDisplay;
@@ -25,7 +32,7 @@ function getLocation()
   
 function showPosition(position){
   actCoords = [position.coords.latitude,position.coords.longitude];
- //  alert(position.coords.latitude);
+//  alert(position.coords.latitude);
   carregar();
 }
 function error(msg) {
@@ -36,11 +43,10 @@ function error(msg) {
 $(document).ready(function(){
 	getLocation(); //pegar localização
   $("#btnSubmit").click(function(){
-   		getacademias();
+   		getHospitais();
    		goToByScroll("#resultados");
   });
 });
-
 //carregar div do mapa
 $(document).ready(function(){
     if ($("#mapa").text().length > 0) {
@@ -148,16 +154,16 @@ function outEstrelas(event){
 }
 
 /**
-* Inserir nova Academia (resultado)
-* @params id:int, nome:char, endereco:char,fone:char,geo:array
+* Inserir novo Hospital (resultado)
+* @params id:int, nome:char, endereco:char,fone:char,geo:array,especialidades:array
 */
-function inserirAcademia(idLista,idBanco,nome,endereco,fone,distanciaKm,geo, horarios){	
+function inserirHospital(idLista,idBanco,nome,endereco,fone,distanciaKm,geo,especialidades){	
 	
-	//Adicionar Container de Academias
+	//Adicionar Container de Hospital
 	if(idLista%2 == 0){
-		$("#resultados").append("<article id='academia_"+idLista+"' class='academia_"+idLista+" academia_"+idBanco+" academia'></article>");
+		$("#resultados").append("<article id='hospital_"+idLista+"' class='hospital_"+idLista+" hospital_"+idBanco+" hospital'></article>");
 	}else{
-		$("#resultados").append("<article id='academia_"+idLista+"' class='academia_"+idLista+" academia_"+idBanco+" academia academia_alt'></article>");
+		$("#resultados").append("<article id='hospital_"+idLista+"' class='hospital_"+idLista+" hospital_"+idBanco+" hospital hospital_alt'></article>");
 	}
 	
 	var params  = "";
@@ -168,27 +174,27 @@ function inserirAcademia(idLista,idBanco,nome,endereco,fone,distanciaKm,geo, hor
 		params += "fone="+fone+"&";
 		params += "km="+distanciaKm+"&";
 		params += "geo="+geo+"&";
-		params += "horarios="+horarios;
+		params += "especialidades="+especialidades;
 	
 	$.ajax({
-		url:"/objetos/acad_res.php?" + params,
+		url:"/objetos/hosp_res.php?" + params,
 		cache : false,
 		type : "get",
 		error : function(retorno) {
-			$("#academia_"+idLista).append("Erro no Sistema");
+			$("#hospital_"+idLista).append("Erro no Sistema");
 		},
 		success : function(retorno) {
-			$("#academia_"+idLista).html(retorno);		
-			$("#academia_"+idLista).animate({opacity: 1});
+			$("#hospital_"+idLista).html(retorno);		
+			$("#hospital_"+idLista).animate({opacity: 1});
 		}
 	});
 }
 
 /**
-* Inserir Todos os academias
+* Inserir Todos os Hospitais
 */
-function getacademias(){
-	//var arracademias = [] ;//Array com academias
+function getHospitais(){
+	//var arrHospitais = [] ;//Array com Hospitais
 	
 	$("#resultados").append('<ul id="temp" style="display:none;"></ul>');
 	
@@ -206,7 +212,7 @@ function getacademias(){
 		},
 		success : function(retorno) {
 			var quant = retorno.academias.length;
-			var arracademias = retorno.academias;
+			var arrHospitais = retorno.academias;
 		
 			var posA = actCoords[0]+","+actCoords[1];
 			
@@ -239,7 +245,7 @@ function getacademias(){
 	
 		alert($("#temp .ul")[0].html());
 						for (var i = 0; i <= 10; i++) {
-							inseriracademia(
+							inserirHospital(
 							i,
 							retorno.academias[i].id,
 							retorno.academias[i].nome,
@@ -247,9 +253,12 @@ function getacademias(){
 							retorno.academias[i].fone,
 							distKm[i],
 							new Array(retorno.academias[i].latitude, retorno.academias[i].longitude),
-							retorno.academias[i].horario_de_aulas)
+							retorno.academias[i].horario_de_aula
 							);
-						}								
+						}					
+				
+
+			
 			
 			goToByScroll("#resultados");			
 		}

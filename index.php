@@ -41,7 +41,7 @@
 			<div id="busca" class="area_busca">
 				<div id="buscarHosital" class="form_busca">
 					<div>
-						<input type="text" id="txtBuscaacademia" class="busca" autocomplete="on" placeholder="Ex. Rua das Palmeiras, 83"/>
+						<input type="text" id="txtBuscaHospital" class="busca" autocomplete="on" placeholder="Ex. Rua das Palmeiras, 83"/>
 					</div>
 					<button id="btnSubmit" class="procurar">Buscar <span class="icone">a</span></button>
 				</div>
