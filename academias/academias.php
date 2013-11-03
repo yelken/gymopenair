@@ -18,10 +18,10 @@ $database = 'academiadacida';
 
 $jsonStr = '{"academias": [';
 
-$hospitalObj = '';
+$academiaObj = '';
 
 while ($row = mysql_fetch_array($result)) {
-   $academiasObj = $academiasObj.'{"academia": ' . '"' . $row{'academia_nome'} . '"' . ', ' . '"endereco": ' . '"' . $row{'endereco'} . '"' . ', '  .'"bairro": ' .  '"' . $row{'bairro'} .  '"' . ', ' . '"fone": ' . '"' . $row{'fone'} . '"' . ', ' . '"latitude": ' . '"' . $row{'latitude'} . '"' . ', ' . '"longitude": ' . $row{'longitude'} . ', ' . '"horario_de_aulas": ' . $row{'horario_de_aulas'} . '}' . ',';
+   $academiasObj = $academiasObj.'{"nome": ' . '"' . $row{'academia_nome'} . '"' . ', ' . '"endereco": ' . '"' . $row{'endereco'} . '"' . ', '  .'"bairro": ' .  '"' . $row{'bairro'} .  '"' . ', ' . '"fone": ' . '"' . $row{'fone'} . '"' . ', ' . '"latitude": ' . '"' . $row{'latitude'} . '"' . ', ' . '"longitude": ' . $row{'longitude'} . ', ' . '"horario_de_aulas": ' . $row{'horario_de_aulas'} . '}' . ',';
 }
 
 $academiasObj = substr($academiasObj, 0, -1);

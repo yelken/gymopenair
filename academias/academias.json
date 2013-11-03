@@ -1,0 +1,384 @@
+{
+    "academias": [
+        {
+            "nome": "US 358 ACADEMIA DA CIDADE POLO DE SANTO AMARO /JOAO DE BARROS",
+            "id": "1",
+            "endereco": "AV AGAMENON MAGALHAES, S/N",
+            "bairro": "SANTO AMARO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,044385959",
+            "longitude": "-34,88799104",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 374 ACADEMIA DA CIDADE POLO 13 DE MAIO",
+            "id": "2",
+            "endereco": "PRACA 13 DE MAIO",
+            "bairro": "SANTO AMARO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,056658194",
+            "longitude": "-34,88019835",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 356 ACADEMIA DA CIDADE POLO DA ILHA DO LEITE / MIGUEL DE CERVANTES",
+            "id": "3",
+            "endereco": "PRACA MIGUEL DE CERVANTES",
+            "bairro": "ILHA DO LEITE",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,066801476",
+            "longitude": "-34,89355356",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 357 ACADEMIA DA CIDADE POLO COQUE",
+            "id": "4",
+            "endereco": "AV MARTINS LUTHER KING, S/N",
+            "bairro": "JOANA BEZERRA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,069517287",
+            "longitude": "-34,897017",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "POLO PRACA CHAO DE ESTRELAS",
+            "id": "5",
+            "endereco": "RUA MARCILIO DIAS",
+            "bairro": "CAMPINA DO BARRETO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,020622601",
+            "longitude": "-34,87968359",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "POLO PRACA JOVEM CAP",
+            "id": "6",
+            "endereco": "RUA SUDESTE, S/N",
+            "bairro": "CAJUEIRO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,014352817",
+            "longitude": "-34,88325204",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 353 ACADEMIA DA CIDADE POLO ILHA DE JOANEIRO",
+            "id": "7",
+            "endereco": "AV AGAMENON MAGALHAES ",
+            "bairro": "TORREAO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,041390408",
+            "longitude": "-34,88334059",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 355 ACADEMIA DA CIDADE POLO HIPODROMO",
+            "id": "8",
+            "endereco": "PRACA DO HIPODROMO",
+            "bairro": "HIPODROMO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,032222022",
+            "longitude": "-34,8860192",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 377 ACADEMIA DA CIDADE POLO CHIE",
+            "id": "9",
+            "endereco": "AV AGAMENON MAGALHAES",
+            "bairro": "CAMPO GRANDE",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,038132873",
+            "longitude": "-34,87638771",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "POLO CSU AFRANIO GODOY",
+            "id": "10",
+            "endereco": "AV ANIBAL BENEVOLO, S/N",
+            "bairro": "LINHA DO TIRO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,010283367",
+            "longitude": "-34,90327754",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 354 ACADEMIA DA CIDADE POLO ALTO DO CAPITAO",
+            "id": "11",
+            "endereco": "RUA TUPIRACABA, S/N",
+            "bairro": "DOIS UNIDOS",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-7,999643463",
+            "longitude": "-34,91377457",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "POLO ERMIRIO DE MORAES",
+            "id": "12",
+            "endereco": "AV 17 DE AGOSTO, 2388",
+            "bairro": "CASA FORTE",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,028673668",
+            "longitude": "-34,9258694",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "POLO PARQUE SANTANA",
+            "id": "13",
+            "endereco": "RUA SANTANA, S/N - SANTANA",
+            "bairro": "SANTANA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,041942302",
+            "longitude": "-34,91801276",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 359 ACADEMIA DA CIDADE POLO SITIO DA TRINDADE",
+            "id": "14",
+            "endereco": "ESTRADA DO ARRAIAL, S/N",
+            "bairro": "CASA AMARELA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,028879688",
+            "longitude": "-34,91217231",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 360 ACADEMIA DA CIDADE POLO DO MORRO DA CONCEICAO / ODETE GOMES DE ALMEIDA",
+            "id": "15",
+            "endereco": "PRACA DO MORRO DA CONCEICAO, 589",
+            "bairro": "MORRO DA CONCEICAO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,019378056",
+            "longitude": "-34,91499809",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 361 ACADEMIA DA CIDADE POLO JAQUEIRA",
+            "id": "16",
+            "endereco": "RUA DO FUTURO, S/N",
+            "bairro": "JAQUEIRA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,036524412",
+            "longitude": "-34,90469063",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 387 ACADEMIA DA CIDADE POLO UM POR TODOS",
+            "id": "17",
+            "endereco": "RUA VILA UM POR TODOS, S/N",
+            "bairro": "VASCO DA GAMA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,010439885",
+            "longitude": "-34,9224429",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 380 POLO PRACA DO BURITY",
+            "id": "18",
+            "endereco": "AVENIDA NORTE, S/N",
+            "bairro": "MACAXEIRA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,016742672",
+            "longitude": "-34,92931483",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 363 ACADEMIA DA CIDADE POLO BEIRA RIO / TORRE",
+            "id": "19",
+            "endereco": "AV BEIRA RIO, S/N",
+            "bairro": "TORRE",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,046118215",
+            "longitude": "-34,90401316",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 375 ACADEMIA DA CIDADE POLO PRACA DO SALGUEIRO",
+            "id": "20",
+            "endereco": "PRACA DO SALGUEIRO",
+            "bairro": "IPUTINGA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,042617606",
+            "longitude": "-34,93825496",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": " US 364 ACADEMIA DA CIDADE POLO DA PRACA DO ENGENHO DO MEIO, PARQUE ARNALDO ASSUNCAO",
+            "id": "21",
+            "endereco": "PRACA DO ENGENHO DO MEIO ",
+            "bairro": "ENGENHO DO MEIO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,057599618",
+            "longitude": "-34,94339901",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 362 ACADEMIA DA CIDADE POLO DA PRACA DA AV DO FORTE / TORROES / ARRAIAL NOVO DO BOM",
+            "id": "22",
+            "endereco": "PRACA DA AVENIDA DO FORTE",
+            "bairro": "TORROES",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,057458224",
+            "longitude": "-34,93121509",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 386 ACADEMIA DA CIDADE POLO RODA DE FOGO",
+            "id": "23",
+            "endereco": "AV PROFESSOR ARTUR COUTINHO, S/N",
+            "bairro": "TORROES",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,058097415",
+            "longitude": "-34,93740353",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 365 ACADEMIA DA CIDADE POLO DA VARZEA/PRACA DO POETA",
+            "id": "24",
+            "endereco": "PRACA DO POETA/VARZEA",
+            "bairro": "VARZEA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,034308222",
+            "longitude": "-34,95074169",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 382 ACADEMIA DA CIDADE POLO VARZEA",
+            "id": "25",
+            "endereco": "RUA CEL PACHECO",
+            "bairro": "VARZEA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,049217173",
+            "longitude": "-34,95946709",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "POLO PRACA DO ABC",
+            "id": "26",
+            "endereco": "AV MANUEL GONCALVES DA LUZA",
+            "bairro": "MUSTARDINHA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,073359317",
+            "longitude": "-34,9186726",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 367 ACADEMIA DA CIDADE POLO DE SAN MARTIN",
+            "id": "27",
+            "endereco": "PATIO DE EVENTOS NOEL RODRIGUES",
+            "bairro": "SAN MARTIN",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,070989066",
+            "longitude": "-34,92877891",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 379 POLO PRACA SIMAO BORBA",
+            "id": "28",
+            "endereco": "RUA SIMAO BORBA, S/N",
+            "bairro": "AREIAS",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,098664953",
+            "longitude": "-34,9258452",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 381 POLO PRACA HEROIS DA RESTAURACAO",
+            "id": "29",
+            "endereco": "RUA CAJA",
+            "bairro": "AREIAS",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,097247927",
+            "longitude": "-34,93565796",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 383 POLO PRACA DAS LAVADEIRAS",
+            "id": "30",
+            "endereco": "RUA PALMARES, S/N",
+            "bairro": "AREIAS",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,094536677",
+            "longitude": "-34,93669277",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 366 ACADEMIA DA CIDADE POLO DA PRACA DE JARDIM SAO PAULO",
+            "id": "31",
+            "endereco": "PRACA DE JARDIM SAO PAULO ",
+            "bairro": "JARDIM SAO PAULO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,081612226",
+            "longitude": "-34,93826531",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 368 ACADEMIA DA CIDADE POLO DA PRAIA DE BOA VIAGEM",
+            "id": "32",
+            "endereco": "SEGUNDO JARDIM DE BOA VIAGEM",
+            "bairro": "BOA VIAGEM",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,101778875",
+            "longitude": "-34,8850463",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 369 ACADEMIA DA CIDADE POLO DE BRASILIA TEIMOSA",
+            "id": "33",
+            "endereco": "RUA JOAO MARQUES DOS SANTOS",
+            "bairro": "BRASILIA TEIMOSA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,085577821",
+            "longitude": "-34,87843691",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 371 ACADEMIA DA CIDADE POLO IPSEP",
+            "id": "34",
+            "endereco": "PRACA SENADOR ROBERTO KENEDY",
+            "bairro": "IPSEP",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,116100104",
+            "longitude": "-34,9190577",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 372 ACADEMIA DA CIDADE POLO LAGOA DO ARACA",
+            "id": "35",
+            "endereco": "AV JOSE F LINS, LAGOA DO ARACA",
+            "bairro": "IMBIRIBEIRA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,092457126",
+            "longitude": "-34,9150644",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 384 POLO PRACA CAFESOPOLIS",
+            "id": "36",
+            "endereco": "RUA CAFESOPOLIS, S/N",
+            "bairro": "IMBIRIBEIRA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,1014676",
+            "longitude": "-34,90869305",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "USF 385 POLO PRACA JORDAO",
+            "id": "37",
+            "endereco": "AV ALBERTO LUNDGREN, S/N",
+            "bairro": "JORDAO",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,1366891",
+            "longitude": "-34,93687444",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        },
+        {
+            "nome": "US 370 ACADEMIA DA CIDADE POLO PRACA DA VITORIA",
+            "id": "38",
+            "endereco": "PRACA DO IBURA, UR 01",
+            "bairro": "IBURA",
+            "fone": "3355-2820/3355-2812",
+            "latitude": "-8,118207097",
+            "longitude": "-34,94611665",
+            "horario_de_aulas": "05:30 as 08:30 / 17:00 as 19:00"
+        }
+    ]
+}

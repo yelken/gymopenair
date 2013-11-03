@@ -36,10 +36,11 @@ function error(msg) {
 $(document).ready(function(){
 	getLocation(); //pegar localização
   $("#btnSubmit").click(function(){
-   		getHospitais();
+   		getacademias();
    		goToByScroll("#resultados");
   });
 });
+
 //carregar div do mapa
 $(document).ready(function(){
     if ($("#mapa").text().length > 0) {
@@ -147,16 +148,16 @@ function outEstrelas(event){
 }
 
 /**
-* Inserir novo Hospital (resultado)
-* @params id:int, nome:char, endereco:char,fone:char,geo:array,especialidades:array
+* Inserir nova Academia (resultado)
+* @params id:int, nome:char, endereco:char,fone:char,geo:array
 */
-function inserirHospital(idLista,idBanco,nome,endereco,fone,distanciaKm,geo,especialidades){	
+function inserirAcademia(idLista,idBanco,nome,endereco,fone,distanciaKm,geo, horarios){	
 	
-	//Adicionar Container de Hospital
+	//Adicionar Container de Academias
 	if(idLista%2 == 0){
-		$("#resultados").append("<article id='hospital_"+idLista+"' class='hospital_"+idLista+" hospital_"+idBanco+" hospital'></article>");
+		$("#resultados").append("<article id='academia_"+idLista+"' class='academia_"+idLista+" academia_"+idBanco+" academia'></article>");
 	}else{
-		$("#resultados").append("<article id='hospital_"+idLista+"' class='hospital_"+idLista+" hospital_"+idBanco+" hospital hospital_alt'></article>");
+		$("#resultados").append("<article id='academia_"+idLista+"' class='academia_"+idLista+" academia_"+idBanco+" academia academia_alt'></article>");
 	}
 	
 	var params  = "";
@@ -167,33 +168,33 @@ function inserirHospital(idLista,idBanco,nome,endereco,fone,distanciaKm,geo,espe
 		params += "fone="+fone+"&";
 		params += "km="+distanciaKm+"&";
 		params += "geo="+geo+"&";
-		params += "especialidades="+especialidades;
+		params += "horarios="+horarios;
 	
 	$.ajax({
-		url:"/objetos/hosp_res.php?" + params,
+		url:"/objetos/acad_res.php?" + params,
 		cache : false,
 		type : "get",
 		error : function(retorno) {
-			$("#hospital_"+idLista).append("Erro no Sistema");
+			$("#academia_"+idLista).append("Erro no Sistema");
 		},
 		success : function(retorno) {
-			$("#hospital_"+idLista).html(retorno);		
-			$("#hospital_"+idLista).animate({opacity: 1});
+			$("#academia_"+idLista).html(retorno);		
+			$("#academia_"+idLista).animate({opacity: 1});
 		}
 	});
 }
 
 /**
-* Inserir Todos os Hospitais
+* Inserir Todos os academias
 */
-function getHospitais(){
-	//var arrHospitais = [] ;//Array com Hospitais
+function getacademias(){
+	//var arracademias = [] ;//Array com academias
 	
 	$("#resultados").append('<ul id="temp" style="display:none;"></ul>');
 	
 	//var arrDuino =
 	$.ajax({
-		url : "/hospitais/hospitais.php",
+		url : "/academias/academias.json",
 		cache : false,
 		type : "get",
 		dataType : "json",
@@ -204,8 +205,8 @@ function getHospitais(){
 			alert(retorno);
 		},
 		success : function(retorno) {
-			var quant = retorno.hospitais.length;
-			var arrHospitais = retorno.hospitais;
+			var quant = retorno.academias.length;
+			var arracademias = retorno.academias;
 		
 			var posA = actCoords[0]+","+actCoords[1];
 			
@@ -215,9 +216,9 @@ function getHospitais(){
 			var distKm = 0;
 		
 			for (var n=0;n<=10;n++){
-				var nome = retorno.hospitais[n].nome;
+				var nome = retorno.academias[n].nome;
 			
-				var posB = retorno.hospitais[n].latitude+","+retorno.hospitais[n].longitude;
+				var posB = retorno.academias[n].latitude+","+retorno.academias[n].longitude;
 				var dMatrix = "http://maps.googleapis.com/maps/api/distancematrix/json?origins="+posA+"&destinations="+posB+"&mode=driving&language=pt-BR&sensor=false&units=metric&nome="+nome+";";
 				$.ajax({
 					url : dMatrix,
@@ -238,20 +239,17 @@ function getHospitais(){
 	
 		alert($("#temp .ul")[0].html());
 						for (var i = 0; i <= 10; i++) {
-							inserirHospital(
+							inseriracademia(
 							i,
-							retorno.hospitais[i].id,
-							retorno.hospitais[i].nome,
-							retorno.hospitais[i].endereco,
-							"(81)8888-8888",
+							retorno.academias[i].id,
+							retorno.academias[i].nome,
+							retorno.academias[i].endereco,
+							retorno.academias[i].fone,
 							distKm[i],
-							new Array(retorno.hospitais[i].latitude, retorno.hospitais[i].longitude),
-							new Array(retorno.hospitais[i].especialidades)
+							new Array(retorno.academias[i].latitude, retorno.academias[i].longitude),
+							retorno.academias[i].horario_de_aulas)
 							);
-						}					
-				
-
-			
+						}								
 			
 			goToByScroll("#resultados");			
 		}

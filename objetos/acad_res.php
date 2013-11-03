@@ -7,10 +7,10 @@
 	$endereco 		= trim($_REQUEST['endereco']);
 	$fone   		= trim($_REQUEST['fone']);
 	$geo   			= trim($_REQUEST['geo']);
-	$especialidades = trim($_REQUEST['especialidades']);
+	$horarios		= trim($_REQUEST['horarios']);
 	$km				= trim($_REQUEST['km']);
 	$geo			= split(",", $geo);
-	$especialidades = split(",", $especialidades);
+	//$especialidades = split(",", $especialidades);
 ?>
 <?php if($idLista==0): ?>
 	<div id="maisPerto" class="mais_proximo">
@@ -18,11 +18,11 @@
 	</div>
 <?php endif; ?>
 <header>
-	<h1 id="nomeHospital" class="titulo_hospital" >
+	<h1 id="nomeacademia" class="titulo_academia" >
 		<?php echo utf8_encode($nome); ?>
 	</h1>
 </header>
-<div id="dadosHospital" class="area_dados_hospital">
+<div id="dadosacademia" class="area_dados_academia">
 	<div id="status" class="status">
 	</div>
 	<div id="endereco" class="endereco">
@@ -32,7 +32,7 @@
 		<div id="distancia" class="distancia">
 			<?php echo utf8_encode($km); ?>
 		</div>
-		<div id="foneHospital" class="fone">
+		<div id="foneacademia" class="fone">
 			<?php echo utf8_encode($fone); ?>
 		</div>
 		<div id="nota" class="estrelas">
@@ -44,11 +44,9 @@
 		</div>
 	</div>
 	<div id="especializadades" class="especialidades">
-		<h2>Especialidades:</h2>
+		<h2>Horario:</h2>
 		<ul id="lisEspecialidades" class="lista_especialidades">
-			<?php for($i=0;$i<count($especialidades);$i++):?>
-				<li><?php echo utf8_encode($especialidades[0]); ?></li>
-			<?php endfor;?>
+				<li><?php echo utf8_encode($horarios); ?></li>
 		</ul>
 	</div>
 	<div id="exibir" class="exibir">
@@ -56,6 +54,6 @@
 			Exibir no Mapa
 		</button>
 	</div>
-	<div id="mapa_<?php echo $idBanco; ?>" class="mapa_hospital mapa_hospital<?php echo $idLista; ?>">
+	<div id="mapa_<?php echo $idBanco; ?>" class="mapa_academia mapa_academia<?php echo $idLista; ?>">
 	</div>
 </div>

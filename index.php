@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Academias da cidade</title>
+		<title>GYM Open Air</title>
 		<!-- meta -->
 		<meta charset="UTF-8" />
 		<meta name="author" content="Vitoria Vasconcelos" />
@@ -31,7 +31,7 @@
 		<header id="headPrincipal" class="cabecalho_pagina">
 			<div class="logo">C</div>
 			<div class="titulo">
-				<h1>Academias da cidade</h1>
+				<h1>GYM Open Air</h1>
 				<h2>Encontre a academia mais próxima de você</h2>
 			</div>
 		</header>
@@ -41,7 +41,7 @@
 			<div id="busca" class="area_busca">
 				<div id="buscarHosital" class="form_busca">
 					<div>
-						<input type="text" id="txtBuscaHospital" class="busca" autocomplete="on" placeholder="Ex. Rua das Palmeiras, 83"/>
+						<input type="text" id="txtBuscaacademia" class="busca" autocomplete="on" placeholder="Ex. Rua das Palmeiras, 83"/>
 					</div>
 					<button id="btnSubmit" class="procurar">Buscar <span class="icone">a</span></button>
 				</div>
