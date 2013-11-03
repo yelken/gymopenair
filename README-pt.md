@@ -1,4 +1,4 @@
-*[Read the documentation in English](https://github.com/yelken/gymopenair/master/README.md)*
+*[Read the documentation in English](https://github.com/yelken/gymopenair/blob/master/README.md)*
 
 ---
 Academias da Cidade - Encontre a academia mais próxima de você
