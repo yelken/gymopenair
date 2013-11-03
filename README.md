@@ -3,7 +3,7 @@ Academias da Cidade - Encontre a academia mais próxima de você
 
 Aplicativo submetido no Hackathon Americas Datafest
 
-Objetivo: O aplicativo tem por objetivo mostrar as academias da cidade mais próximas para as pessoas que estão migrando para uma determinada cidade e motiva-las a manter a frequência.
+Objetivo: O aplicativo tem por objetivo mostrar as academias da cidade mais próximas para as pessoas que estão migrando para uma determinada cidade e motiva-las a praticar exercicios com frequência.
 
 Restrições: Por enquanto o aplicativo só funcionará em Recife pois utilizamos os dados abertos da Prefeitura do Recife.
 
