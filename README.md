@@ -13,17 +13,6 @@ Restrictions: For now the app only works in Recife since we used its open data.
 
 Technologies: HTML5, CSS3, Javascript, API do Google Maps.
 
-Creators:
-
-Yelken Heckman
-http://br.linkedin.com/in/yelken
-yelkezin@gmail.com
-
-Leonardo Lima
-http://www.linkedin.com/pub/leonardo-lima/19/122/22
-lccsl1@gmail.com 
-
-Vitória Vasconcelos
-http://www.linkedin.com/profile/view?id=220446065&trk
+It is very important to mention that this project reuses code from the app developed by Rodrigo Portillo and Yelken Gonzales, "Busca Saúde", which uses open data and provides updated information about clinics and hospitals nearby [See more here] (http://blogs.ne10.uol.com.br/mundobit/2013/07/20/hackaton-cidadao-premia-aplicativos-sobre-saude-e-educacao-na-campus-party-recife/?doing_wp_cron=1391237944.7107429504394531250000#sthash.EcrvAExW.dpuf).
 
 
