@@ -13,6 +13,6 @@ Restrições: Por enquanto o aplicativo só funcionará em Recife pois utilizamo
 Tecnologias: HTML5, CSS3, Javascript, API do Google Maps, API da Prefeitura do Recife.
 Servidor: Linux
 
-O aplicativo roda web então é multiplataforma tendo como principal ponto positivo o layout responsivo que permite a flexibilidade de aparelhos celulares e computadores
+O aplicativo roda web então é multiplataforma tendo como principal ponto positivo o layout responsivo que permite a flexibilidade de aparelhos celulares e computadores.
 
-É muito importante mencionar que este projeto reusa o código do app desenvolvido por Rodrigo Portillo e Yelken Gonzales, “Busca Saúde”, que usa dados abertos e traz informações atualizadas sobre postos de saúde e hospitais próximos [Veja mais aqui]  (http://blogs.ne10.uol.com.br/mundobit/2013/07/20/hackaton-cidadao-premia-aplicativos-sobre-saude-e-educacao-na-campus-party-recife/?doing_wp_cron=1391237944.7107429504394531250000#sthash.EcrvAExW.dpuf)
+É muito importante mencionar que este projeto reusa o código do app desenvolvido por Rodrigo Portillo e Yelken Gonzales, “Busca Saúde”, que usa dados abertos e traz informações atualizadas sobre postos de saúde e hospitais próximos [Veja mais aqui]  (http://blogs.ne10.uol.com.br/mundobit/2013/07/20/hackaton-cidadao-premia-aplicativos-sobre-saude-e-educacao-na-campus-party-recife/?doing_wp_cron=1391237944.7107429504394531250000#sthash.EcrvAExW.dpuf).
