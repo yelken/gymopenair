@@ -15,17 +15,4 @@ Servidor: Linux
 
 O aplicativo roda web então é multiplataforma tendo como principal ponto positivo o layout responsivo que permite a flexibilidade de aparelhos celulares e computadores
 
-Link da apresentação no youtube: ?
-
-Criadores:
-
-Yelken Heckman
-http://br.linkedin.com/in/yelken
-yelkezin@gmail.com
-
-Leonardo Lima
-http://www.linkedin.com/pub/leonardo-lima/19/122/22
-lccsl1@gmail.com 
-
-Vitória Vasconcelos
-http://www.linkedin.com/profile/view?id=220446065&trk
+É muito importante mencionar que este projeto reusa o código do app desenvolvido por Rodrigo Portillo e Yelken Gonzales, “Busca Saúde”, que usa dados abertos e traz informações atualizadas sobre postos de saúde e hospitais próximos [Veja mais aqui]  (http://blogs.ne10.uol.com.br/mundobit/2013/07/20/hackaton-cidadao-premia-aplicativos-sobre-saude-e-educacao-na-campus-party-recife/?doing_wp_cron=1391237944.7107429504394531250000#sthash.EcrvAExW.dpuf)
